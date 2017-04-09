@@ -1,0 +1,26 @@
+<ion-view view-title="Eventos">
+  <ion-content class="padding">
+      <h1>{{evento.nombre}}</h1>
+      <p>
+        {{evento.descripcion}}
+      </p>
+        <div class="row">
+          <div class="col">
+            <button class="button button-block  button-positive" style="text-align:center">
+              <i class="ion-ios-checkmark"></i>
+            </button>     
+          </div>
+          <div class="col">
+            <button class="button button-block  button-positive" style="text-align:center" ng-click="goFoto()">
+              <i class="ion-camera"></i>
+            </button>    
+          </div>
+          <div class="col">
+            <button class="button button-block  button-positive" style="text-align:center" >
+                <i class="ion-eye"></i>
+            </button>      
+          </div>
+        </div>
+       
+  </ion-content>
+</ion-view>

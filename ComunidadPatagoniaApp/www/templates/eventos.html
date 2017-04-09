@@ -1,0 +1,13 @@
+<ion-view view-title="Eventos">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right"  type="item-text-wrap" href="#/evento/{{$index}}" ng-repeat="evento in arrEventos track by $index">
+        <img src="http://placehold.it/150x150">
+        <h2>{{evento.nombre}}</h2>
+        <p>{{evento.descripcion}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+     
+    </ion-list>
+  </ion-content>
+</ion-view>
